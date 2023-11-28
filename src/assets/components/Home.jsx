@@ -24,9 +24,9 @@ function ComponentName() {
     <p className='text-sm text-paragraph'> A PLATFORM FOR OUR SPIRITUAL JOURNEY</p>
     <h1 className='text-6xl font-bold w-50' >inspiring a deeper <br /> connection with Allah</h1>
     <p className='text-sm text-paragraph'>Are you ready to elevate your browsing experience By earning reward as you go by you day</p>
-   <div className=' mt-7 ' >
+   <div className=' flex mt-7 ' >
       <button  className='bg-extension text-white p-2 rounded-md w-189'>Download Extension</button>
-      <button  className='border border-neutral300 text-black p-2 rounded-md  ml-5 w-189'>join  App Waiting List
+      <button  className='border border-neutral300 text-black p-2 rounded-md  ml-5 flex'>join  App Waiting List
       <FavoriteBorderOutlinedIcon/>
       </button>
       </div>

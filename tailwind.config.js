@@ -25,14 +25,34 @@ module.exports = {
       height: {
         '300':'300px',
         '579': '579px',
-        '700':'700px'
+        '700':'700px',
+        '209':'209px',
+        
       },
       width:{
         '250':'250px',
-        '856':'856',
+        '856':'856px',
         '523':'523px',
         '189':'189px',
-      }
+        '370':'370px',
+        '1216':'1216px',
+      },
+      screens: {
+        'sm': {'max': '800px'},
+        // => @media (min-width: 640px and max-width: 767px) { ... }
+  
+        'md': {'min': '800px', 'max':'1500px'},
+        // => @media (min-width: 768px and max-width: 1023px) { ... }
+  
+        'lg': {'min': '1024px', 'max': '1279px'},
+        // => @media (min-width: 1024px and max-width: 1279px) { ... }
+  
+        'xl': {'max': '600px'},
+        // => @media (min-width: 1280px and max-width: 1535px) { ... }
+  
+        '2xl': {'min': '1536px'},
+        // => @media (min-width: 1536px) { ... }
+      },
 
     },
   },
